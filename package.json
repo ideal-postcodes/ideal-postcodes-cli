@@ -1,0 +1,41 @@
+{
+  "name": "ideal-postcodes-cli",
+  "version": "0.0.1",
+  "description": "Command line tool for Ideal-Postcodes.co.uk",
+  "main": "lib/index.js",
+  "homepage": "https://ideal-postcodes.co.uk/",
+  "bin": {
+    "idealpostcodes": "./bin/idealpostcodes"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideal-postcodes/ideal-postcodes-cli.git"
+  },
+  "keywords": [
+    "UK",
+    "Addressing",
+    "Royal",
+    "Mail",
+    "PAF"
+  ],
+  "author": "Ideal Postcodes",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "chalk": "~1.1.3",
+    "commander": "~2.9.0",
+    "ideal-postcodes": "~0.2.7",
+    "qs": "~6.4.0",
+    "socket.io-client": "~1.4.0",
+    "text-table": "~0.2.0"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~3.3.0",
+    "nock": "~9.0.13",
+    "express": "~4.15.2"
+  }
+}
