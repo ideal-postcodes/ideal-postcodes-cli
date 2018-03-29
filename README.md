@@ -1,3 +1,7 @@
+## Deprecation Notice
+
+Ideal-Postcodes.co.uk CLI will be deprecated on May 1st 2018
+
 # Ideal-Postcodes.co.uk CLI
 
 Ideal Postcodes is a simple JSON API to query UK postcodes and addresses. Find out more at [Ideal-Postcodes.co.uk](https://ideal-postcodes.co.uk/)
